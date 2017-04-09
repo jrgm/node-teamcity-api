@@ -1,6 +1,6 @@
 "use strict";
 
-var util = require("util")
+var util = require("util") // eslint-disable-line no-unused-vars
   , expect = require("chai").expect
   , TeamCityAPI = require("../lib/api")
   , testData = require("./config/test-data")

@@ -11,7 +11,8 @@
     "nock": "^3.6.0"
   },
   "scripts": {
-    "test": "mocha -t test"
+    "test": "mocha -t test",
+    "lint": "../../node_modules/.bin/eslint *.js lib/*.js lib/**/*.js test/*.js test/**/*.js"
   },
   "license": "MIT",
   "repository": {
